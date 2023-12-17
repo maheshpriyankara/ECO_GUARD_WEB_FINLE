@@ -1,0 +1,157 @@
+c:\users\mahe\documents\visual studio 2012\Projects\bbq\bbq\bin\bbq.dll
+c:\users\mahe\documents\visual studio 2012\Projects\bbq\bbq\bin\bbq.pdb
+c:\users\mahe\documents\visual studio 2012\Projects\bbq\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+c:\users\mahe\documents\visual studio 2012\Projects\bbq\bbq\obj\Debug\bbq.dll
+c:\users\mahe\documents\visual studio 2012\Projects\bbq\bbq\obj\Debug\bbq.pdb
+E:\DRive D Backup\Apps-Java Solution\bbq\bbq\bin\bbq.dll
+E:\DRive D Backup\Apps-Java Solution\bbq\bbq\bin\bbq.pdb
+E:\DRive D Backup\Apps-Java Solution\bbq\bbq\obj\Debug\bbq.dll
+E:\DRive D Backup\Apps-Java Solution\bbq\bbq\obj\Debug\bbq.pdb
+E:\DRive D Backup\Apps-Java Solution\bbq\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+E:\BBQ Last\bbq\bin\bbq.dll
+E:\BBQ Last\bbq\bin\bbq.pdb
+E:\BBQ Last\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+E:\BBQ Last\bbq\obj\Debug\bbq.dll
+E:\BBQ Last\bbq\obj\Debug\bbq.pdb
+D:\BBQ Last\bbq\bin\bbq.dll
+D:\BBQ Last\bbq\bin\bbq.pdb
+D:\BBQ Last\bbq\obj\Debug\bbq.dll
+D:\BBQ Last\bbq\obj\Debug\bbq.pdb
+D:\Java Solution Software\BBQ Last\bbq\bin\bbq.dll
+D:\Java Solution Software\BBQ Last\bbq\bin\bbq.pdb
+D:\Java Solution Software\BBQ Last\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+D:\Java Solution Software\BBQ Last\bbq\obj\Debug\bbq.dll
+D:\Java Solution Software\BBQ Last\bbq\obj\Debug\bbq.pdb
+D:\Java Solution Software\BBQ Last\bbq\obj\Debug\bbq.csprojAssemblyReference.cache
+D:\Java Solution Software\BBQ Last\bbq\obj\Debug\bbq.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Software\W10X64.PRO\bbq\bbq\bin\bbq.dll
+C:\Users\User\Documents\Software\W10X64.PRO\bbq\bbq\bin\bbq.pdb
+C:\Users\User\Documents\Software\W10X64.PRO\bbq\bbq\obj\Debug\bbq.dll
+C:\Users\User\Documents\Software\W10X64.PRO\bbq\bbq\obj\Debug\bbq.pdb
+C:\Users\User\Documents\Software\W10X64.PRO\bbq\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Java Solution Software\Lucky web\bbq\bbq\bin\bbq.dll
+C:\Users\User\Documents\Java Solution Software\Lucky web\bbq\bbq\bin\bbq.pdb
+C:\Users\User\Documents\Java Solution Software\Lucky web\bbq\bbq\obj\Debug\bbq.dll
+C:\Users\User\Documents\Java Solution Software\Lucky web\bbq\bbq\obj\Debug\bbq.pdb
+C:\Users\User\Documents\Java Solution Software\Lucky web\bbq\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+E:\Lucky web\bbq\bbq\bin\bbq.dll
+E:\Lucky web\bbq\bbq\bin\bbq.pdb
+E:\Lucky web\bbq\bbq\obj\Debug\bbq.dll
+E:\Lucky web\bbq\bbq\obj\Debug\bbq.pdb
+E:\Lucky web\bbq\bbq\obj\Debug\bbq.csprojResolveAssemblyReference.cache
+C:\Users\User\Lucky web\bbq\bbq\bin\bbq.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\bbq.pdb
+C:\Users\User\Lucky web\bbq\bbq\obj\Debug\bbq.dll
+C:\Users\User\Lucky web\bbq\bbq\obj\Debug\bbq.pdb
+C:\Users\User\Lucky web\bbq\bbq\bin\Newtonsoft.Json.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Web.Http.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\Newtonsoft.Json.xml
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Web.Http.xml
+C:\Users\User\Lucky web\bbq\bbq\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Lucky web\bbq\bbq\bin\bbq.dll.config
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportSource.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.Shared.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.Web.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\User\Lucky web\bbq\bbq\bin\stdole.dll
+C:\Users\User\Lucky web\bbq\bbq\obj\Debug\bbq.csproj.CoreCompileInputs.cache
+C:\Users\User\Lucky web\bbq\bbq\obj\Debug\bbq.csproj.CopyComplete
+C:\Users\User\Lucky web\bbq\bbq\obj\Debug\bbq.csproj.AssemblyReference.cache
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.dll.config
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.pdb
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportSource.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.Shared.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.Web.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\stdole.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.xml
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.CopyComplete
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.dll
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.pdb
+C:\Users\User\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.dll.config
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\bbq.pdb
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportSource.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.Shared.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.Web.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Newtonsoft.Json.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Net.Http.Formatting.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.WebHost.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\stdole.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Newtonsoft.Json.xml
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Net.Http.Formatting.xml
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.xml
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\System.Web.Http.WebHost.xml
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.csproj.CopyComplete
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\obj\Debug\bbq.pdb
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\User1\Documents\Java Solution Software\Harsha Tailor HRIS Web\bbq\bin\Microsoft.ReportViewer.WebForms.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\bbq.dll.config
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\bbq.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\bbq.pdb
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.CrystalReports.Engine.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportSource.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.Shared.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.Web.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Newtonsoft.Json.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Net.Http.Formatting.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Web.Http.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Web.Http.WebHost.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\stdole.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\Newtonsoft.Json.xml
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Net.Http.Formatting.xml
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Web.Http.xml
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\bin\System.Web.Http.WebHost.xml
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\obj\Debug\bbq.csproj.AssemblyReference.cache
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\obj\Debug\bbq.csproj.CoreCompileInputs.cache
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\obj\Debug\bbq.csproj.CopyComplete
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\obj\Debug\bbq.dll
+C:\Users\User1\Documents\Java Solution Software\WILD_LIFE_WEB\bbq\obj\Debug\bbq.pdb
