@@ -13,7 +13,7 @@ var morrisCharts = function() {
       ],
       xkey: 'y',
       ykeys: ['a', 'b','C','d','e'],
-        labels: ['Productin', 'HR', 'Cleaning','Finance','Reception'],
+        labels: ['WILD LIFE', 'FOREST', 'Cleaning','Finance','Reception'],
       resize: true,
         lineColors: ['#33414E', '#95B75D', '#FEA223', '#B64645', '#1caf9a']
     });

@@ -42,22 +42,68 @@
                 <form id="Form1" action="#" method="post" runat="server">
                     <div id="Div1" class="field_w3ls" runat="server">
                         <div id="Div2" class="field-group" runat="server">
-                            <input runat="server" name="userID" id="text_nic" type="text" value="" placeholder="email | nic" />
+                            <input runat="server" name="userID" id="text_id" type="text" value="" placeholder="email | nic" />
                         </div>
                         <div class="field-group">
-                            <input runat="server" id="text_otp" type="password" class="form-control" name="password" value="" placeholder="type your password here..." />
+                            <input runat="server" id="text_password" type="password" class="form-control" name="password" value="" placeholder="type your password here..." />
 
                             <span id="Span1" runat="server" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                     </div>
 
                     <div class="wthree-field">
-                        <asp:Button ID="Button1" runat="server" Text="SIGN IN" OnClick="Button1_Click3" />
+                        <asp:Button ID="btn_signin" runat="server" Text="SIGN IN" />
+                        <script>
+                            const button2 = document.querySelector("#btn_signin");
+
+                            button2.addEventListener("click", function () {
+                                myMethod();
+                                event.preventDefault();
+                            });
+
+                            function myMethod() {
+
+                                var userid = document.getElementById('text_id').value;
+                                var password = document.getElementById('text_password').value;
+                               
+                                if (userid == "" || password == "") {
+
+                                    alert("Please type valied Username and Password")
+                                }
+                                else {
+
+                                    $.ajax({
+                                        beforeSend: function () {
+                                            $("#loading").css("visibility", "visible");
+                                        },
+                                        url: "https://localhost:44354/api/Login/GetLoginCredentials?userid=" + userid + "&password=" + password ,
+                                        type: "GET",
+                                        success: function (data) {
+                                            $.each(data, function (index, value) {
+                                                alert(value.Status_);
+                                            });
+
+                                        },
+                                        error: function (xhr, textStatus, errorThrown) {
+                                            if (xhr.status == 400) {
+                                                alert("Duplicate entry found");
+                                            } else {
+                                                alert("Error adding record. Please try again." + xhr.status);
+                                            }
+                                        },
+                                        complete: function () {
+                                            $("#loading").css("visibility", "hidden");
+                                        }
+                                    });
+                                }
+
+                            }
+                        </script>
                     </div>
                     <div>
 
-                        <a href="#" style="color: white; font-weight: bolder; text-align: left">Froget Password ?</a>
-                        <a href="#" style="color: white; font-weight: bolder; margin-left: 190px">Sign Up</a>
+                        <a href="froget_password.aspx" style="color: white; font-weight: bolder; text-align: left">Froget Password ?</a>
+                        <a href="signup.aspx" style="color: white; font-weight: bolder; margin-left: 190px">Sign Up</a>
 
                     </div>
 

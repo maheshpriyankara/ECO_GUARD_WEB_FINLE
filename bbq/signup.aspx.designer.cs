@@ -15,24 +15,6 @@ namespace bbq
     {
 
         /// <summary>
-        /// txt_name control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl txt_name;
-
-        /// <summary>
-        /// H1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl H1;
-
-        /// <summary>
         /// Form1 control.
         /// </summary>
         /// <remarks>
@@ -87,12 +69,30 @@ namespace bbq
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span1;
 
         /// <summary>
-        /// Button1 control.
+        /// Password1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password1;
+
+        /// <summary>
+        /// Span2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span2;
+
+        /// <summary>
+        /// Button23 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button Button23;
     }
 }

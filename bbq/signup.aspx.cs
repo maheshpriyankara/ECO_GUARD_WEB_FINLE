@@ -107,7 +107,7 @@ namespace bbq
                         con2.Close();
                         var a = Session["userID"];
                         Session["mobile"] = reader[1] + "";
-                        txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
+                        //txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
                         text_nic.Value = reader[0] + "";
                         text_otp.Attributes["placeholder"] = "OTP Sent To : 07XXXXX" + reader.GetString(1).Substring(reader.GetString(1).Length - 4); ;
                         text_nic.Attributes["readonly"] = "readonly";
@@ -119,7 +119,7 @@ namespace bbq
 
                         new SqlCommand("insert into sms_queue values('" + Session["userID"] + "','" + reader[1] + "','" + body + "','" + db.getSysDateTime() + "','" + db.GetLocalIPAddress() + "','" + Session["userID"] + "','" + false + "','" + false + "','" + db.getSysDateTime() + "','" + db.getSysDateTime() + "','" + "" + "')", con2).ExecuteNonQuery();
                         con2.Close();
-                        Button1.Text = "Verify OTP";
+                        //Button1.Text = "Verify OTP";
                     }
                     con.Close();
                 }
@@ -266,7 +266,7 @@ namespace bbq
                     Session["userType"] = null;
                 }
                 var aa = Session["userID"];
-                Button1.Text = "Request OTP";
+           //     Button1.Text = "Request OTP";
                 db = new db();
                 try
                 {
@@ -289,7 +289,7 @@ namespace bbq
                         con2.Close();
                         var a = Session["userID"];
                         Session["mobile"] = reader[1] + "";
-                        txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
+                        //txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
                         text_nic.Value = reader[0] + "";
                         text_otp.Attributes["placeholder"] = "OTP Sent To : 07XXXXX" + reader.GetString(1).Substring(reader.GetString(1).Length - 4); ;
                         text_nic.Attributes["readonly"] = "readonly";
@@ -309,7 +309,7 @@ namespace bbq
                         }
                         con2.Close();
 
-                        Button1.Text = "Verify OTP";
+                        //Button1.Text = "Verify OTP";
                     }
                     con.Close();
                 }
@@ -321,7 +321,7 @@ namespace bbq
                 }
                 if (text_nic.Value.ToString().Equals(""))
                 {
-                    Button1.Text = "SIGN IN";
+                    //Button1.Text = "SIGN IN";
                 }
 
             }
@@ -471,7 +471,7 @@ namespace bbq
                                     con2.Close();
                                     var a = Session["userID"];
                                     Session["mobile"] = reader[1] + "";
-                                    txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
+                                    //txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
                                     text_nic.Value = reader[0] + "";
                                     text_otp.Attributes["placeholder"] = "OTP Sent To : 07XXXXX" + reader.GetString(1).Substring(reader.GetString(1).Length - 4); ;
                                     text_nic.Attributes["readonly"] = "readonly";
@@ -483,7 +483,7 @@ namespace bbq
 
                                     new SqlCommand("insert into sms_queue values('" + Session["userID"] + "','" + reader[1] + "','" + body + "','" + db.getSysDateTime() + "','" + db.GetLocalIPAddress() + "','" + Session["userID"] + "','" + false + "','" + false + "','" + db.getSysDateTime() + "','" + db.getSysDateTime() + "','" + "" + "')", con2).ExecuteNonQuery();
                                     con2.Close();
-                                    Button1.Text = "Verify OTP";
+                                    //Button1.Text = "Verify OTP";
                                 }
                                 else
                                 {

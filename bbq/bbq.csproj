@@ -124,8 +124,10 @@
     <Content Include="css\styleloading.css" />
     <Content Include="deduction.aspx" />
     <Content Include="home.aspx" />
+    <Content Include="js\demo.js" />
     <Content Include="leave.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="froget_password.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="payroll.aspx" />
     <Content Include="profile_employee.aspx" />
@@ -248,6 +250,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="froget_password.aspx.cs">
+      <DependentUpon>froget_password.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="froget_password.aspx.designer.cs">
+      <DependentUpon>froget_password.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>

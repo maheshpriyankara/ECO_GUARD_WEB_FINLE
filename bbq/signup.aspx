@@ -20,7 +20,7 @@
     </script>
     <!-- //Meta-Tags -->
     <!-- Index-Page-CSS -->
-    <link rel="stylesheet" href="css/style_.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/style_signup.css" type="text/css" media="all">
     <!-- //Custom-Stylesheet-Links -->
     <!--fonts -->
     <link href="//fonts.googleapis.com/css?family=Mukta+Mahee:200,300,400,500,600,700,800" rel="stylesheet">
@@ -34,9 +34,7 @@
     <div class="content-w3ls">
         <div class="agileits-grid">
             <div class="content-top-agile" style="background: #000000">
-                <h2 style="text-align: center">Login</h2>
-                <h3 style="text-align: center; color: #808080" id="txt_name" runat="server">WILDLIFE | FOREST </h3>
-                <h4 style="text-align: center; color: #808080" id="H1" runat="server">RESOLUTION CENTER</h4>
+                <h2 style="text-align: center">CREATE NEW ACCOUNT</h2>
             </div>
             <div class="content-bottom">
                 <form id="Form1" action="#" method="post" runat="server">
@@ -44,23 +42,27 @@
                         <div id="Div2" class="field-group" runat="server">
                             <input runat="server" name="userID" id="text_nic" type="text" value="" placeholder="email | nic" />
                         </div>
+
                         <div class="field-group">
                             <input runat="server" id="text_otp" type="password" class="form-control" name="password" value="" placeholder="type your password here..." />
 
                             <span id="Span1" runat="server" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
+                        <div class="field-group">
+                            <input runat="server" id="Password1" type="password" class="form-control" name="password" value="" placeholder="re-type your password here..." />
+
+                            <span id="Span2" runat="server" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                        </div>
                     </div>
 
                     <div class="wthree-field">
-                        <asp:Button ID="Button1" runat="server" Text="SIGN IN" OnClick="Button1_Click3" />
+                        <asp:Button ID="Button23" runat="server" Text="SIGN UP" OnClick="Button1_Click3" />
                     </div>
                     <div>
 
-                        <a href="#" style="color: white; font-weight: bolder; text-align: left">Froget Password ?</a>
-                        <a href="#" style="color: white; font-weight: bolder; margin-left: 190px">Sign Up</a>
+                        <a href="login.aspx" style="color: white; font-weight: bolder; text-align: left">Back to Sign IN</a>
 
                     </div>
-
                 </form>
             </div>
             <!-- //content bottom -->
