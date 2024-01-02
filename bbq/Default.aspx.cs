@@ -85,6 +85,11 @@ namespace bbq
         {
         }
 
+        protected void btn_compalint_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("complaint_.aspx");
+        }
+
         protected void Page_Load(object sender, EventArgs e)
         {
 

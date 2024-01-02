@@ -11,106 +11,142 @@ namespace bbq
 {
 
 
-    public partial class frogetpassword
+    public partial class complaint_
     {
 
         /// <summary>
-        /// Form1 control.
+        /// list_title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm Form1;
+        protected global::System.Web.UI.HtmlControls.HtmlSelect list_title;
 
         /// <summary>
-        /// Div1 control.
+        /// text_initial control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Div1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_initial;
 
         /// <summary>
-        /// Div2 control.
+        /// text_firstName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Div2;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_firstName;
 
         /// <summary>
-        /// text_id control.
+        /// text_LastName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText text_id;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_LastName;
 
         /// <summary>
-        /// text_password_current control.
+        /// text_nic control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_password_current;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_nic;
 
         /// <summary>
-        /// Span3 control.
+        /// text_mobileNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span3;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_mobileNo;
 
         /// <summary>
-        /// text_password_new control.
+        /// text_WPNo control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_password_new;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_WPNo;
 
         /// <summary>
-        /// Span1 control.
+        /// text_address control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span1;
+        protected global::System.Web.UI.WebControls.TextBox text_address;
 
         /// <summary>
-        /// text_password_new2 control.
+        /// btn_save control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_password_new2;
+        protected global::System.Web.UI.WebControls.Button btn_save;
 
         /// <summary>
-        /// Span2 control.
+        /// text_date control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span2;
+        protected global::System.Web.UI.WebControls.TextBox text_date;
 
         /// <summary>
-        /// btn_reset control.
+        /// text_time control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_reset;
+        protected global::System.Web.UI.WebControls.TextBox text_time;
+
+        /// <summary>
+        /// text_location control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_location;
+
+        /// <summary>
+        /// text_area control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_area;
+
+        /// <summary>
+        /// text_complaint control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_complaint;
+
+        /// <summary>
+        /// btn_save2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btn_save2;
     }
 }

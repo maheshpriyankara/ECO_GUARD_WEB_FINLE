@@ -76,11 +76,17 @@
                                         beforeSend: function () {
                                             $("#loading").css("visibility", "visible");
                                         },
-                                        url: "https://localhost:44354/api/Login/GetLoginCredentials?userid=" + userid + "&password=" + password ,
+                                        url: "http://geryjdakdai-001-site30.atempurl.com/api/Login/GetLoginCredentials?userid=" + userid + "&password=" + password ,
                                         type: "GET",
                                         success: function (data) {
                                             $.each(data, function (index, value) {
-                                                alert(value.Status_);
+                                                if (value.Status_ == 'Success Login') {
+                                                    window.location.href = 'home.aspx?userID=' + userid;
+
+                                                } else {
+                                                    alert(value.Status_);
+                                                }
+                                              
                                             });
 
                                         },

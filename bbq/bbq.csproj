@@ -128,6 +128,7 @@
     <Content Include="leave.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="froget_password.aspx" />
+    <Content Include="complaint_.aspx" />
     <Content Include="signup.aspx" />
     <Content Include="payroll.aspx" />
     <Content Include="profile_employee.aspx" />
@@ -257,6 +258,13 @@
     </Compile>
     <Compile Include="froget_password.aspx.designer.cs">
       <DependentUpon>froget_password.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="complaint_.aspx.cs">
+      <DependentUpon>complaint_.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="complaint_.aspx.designer.cs">
+      <DependentUpon>complaint_.aspx</DependentUpon>
     </Compile>
     <Compile Include="signup.aspx.cs">
       <DependentUpon>signup.aspx</DependentUpon>

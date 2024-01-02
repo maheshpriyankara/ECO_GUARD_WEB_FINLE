@@ -222,61 +222,7 @@ namespace bbq
                 var aa = Session["userID"];
            //     Button1.Text = "Request OTP";
                 db = new db();
-                try
-                {
-                    con.Open();
-                    reader = new SqlCommand("select nic,mobilenumber,title,firstname from emp where id='" + Session["userID"] + "'", con).ExecuteReader();
-
-                    if (reader.Read())
-                    {
-                        con2.Open();
-                        reader2 = new SqlCommand("select * from user_Admin where empid='" + Session["userID"] + "'", con2).ExecuteReader();
-                        if (reader2.Read())
-                        {
-                            Session["userType"] = "Admin";
-                        }
-                        else
-                        {
-                            Session["userType"] = "User";
-
-                        }
-                        con2.Close();
-                        var a = Session["userID"];
-                        Session["mobile"] = reader[1] + "";
-                        //txt_name.InnerText = "Welcome Back, " + reader[2] + " " + reader[3];
-                        text_nic.Value = reader[0] + "";
-                        //text_otp.Attributes["placeholder"] = "OTP Sent To : 07XXXXX" + reader.GetString(1).Substring(reader.GetString(1).Length - 4); ;
-                        text_nic.Attributes["readonly"] = "readonly";
-                        var otp = (DateTime.Now.Hour * DateTime.Now.Minute) - DateTime.Now.Second + DateTime.Now.Year;
-                        var body = "Hello, your One-Time Password (OTP) for HRIS login is " + otp + ". Please enter this OTP within 24 Hours to complete your login. Thank you!";
-
-                        con2.Open();
-                        reader2 = new SqlCommand("select * from otp_request where empid='" + Session["userID"] + "' and requset_date between '" + db.getSysDateTime().ToShortDateString() + " 00:00:00" + "' and '" + db.getSysDateTime().ToShortDateString() + " 23:59:00" + "'", con2).ExecuteReader();
-                        if (!reader2.Read())
-                        {
-                            con2.Close();
-                            con2.Open();
-                            new SqlCommand("insert into otp_request values('" + Session["userID"] + "','" + reader[1] + "','" + db.GetLocalIPAddress() + "','" + otp + "','" + db.getSysDateTime() + "')", con2).ExecuteNonQuery();
-
-                            new SqlCommand("insert into sms_queue values('" + Session["userID"] + "','" + reader[1] + "','" + body + "','" + db.getSysDateTime() + "','" + db.GetLocalIPAddress() + "','" + Session["userID"] + "','" + false + "','" + false + "','" + db.getSysDateTime() + "','" + db.getSysDateTime() + "','" + "" + "')", con2).ExecuteNonQuery();
-                            con2.Close();
-                        }
-                        con2.Close();
-
-                        //Button1.Text = "Verify OTP";
-                    }
-                    con.Close();
-                }
-                catch (Exception aaa)
-                {
-                    var ss = aaa.Message;
-                    Session["userID"] = null;
-                    con.Close();
-                }
-                if (text_nic.Value.ToString().Equals(""))
-                {
-                    //Button1.Text = "SIGN IN";
-                }
+               
 
             }
 

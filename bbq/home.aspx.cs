@@ -13,17 +13,18 @@ namespace bbq
         {
             var dd = Session["userID"];
             var df = Session["userType"];
-            //if (Session["userID"] != null && Session["userType"] != null)
-            //{
-            //    if (!Session["userType"].ToString().Equals("Admin"))
-            //    {
-            //        Response.Redirect("login.aspx");
-            //    }
-            //}
-            //else
-            //{
-            //    Response.Redirect("login.aspx");
-            //}
+            if (Request.QueryString["userID"] !=null)
+            {
+                Session["userID"] = Request.QueryString["userID"].ToString();
+            }
+            if (Session["userID"] != null)
+            {
+                
+            }
+            else
+            {
+                Response.Redirect("login.aspx");
+            }
         }
     }
 }

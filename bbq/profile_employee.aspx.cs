@@ -95,43 +95,7 @@ namespace bbq
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Session["userID"] != null && Session["userType"] != null)
-            {
-                if (IsPostBack != true)
-                {
-                    loadList(list_department, conn, reader, "line", 1, "name");
-                    loadList(list_designation, conn, reader, "desegnation", 0, "name");
-                  //  loadList(list_company, conn, reader, "company", 0, "name");
-                    loadList(list_shiftBlock, conn, reader, "shiftValue", 0, "name_0");
-                    try
-                    {
-                        list_company.Items.Clear();
-                        conn.Open();
-                        reader = new SqlCommand("select id,name from company", conn).ExecuteReader();
-                        while (reader.Read())
-                        {
-                            list_company.Items.Add(reader[0].ToString()+"_"+reader[1]);
-                        }
-                        conn.Close();
-                    }
-                    catch (Exception)
-                    {
-                        conn.Close();
-                    }
-                    sys_date = new db().getSysDateTime();
-                    btn_clear_Click(null, null);
-                }
-                if (Session["userID"] == null)
-                {
-                    Session["userID"] = "System";
-                }
-
-            }
-            else
-            {
-                Response.Redirect("login.aspx");
-            }
-
+           
 
 
         }

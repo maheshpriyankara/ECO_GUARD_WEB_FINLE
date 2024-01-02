@@ -12,7 +12,7 @@ using System.Web.UI.WebControls;
 
 namespace bbq
 {
-    public partial class signup : System.Web.UI.Page
+    public partial class complaint_ : System.Web.UI.Page
     {
         SqlConnection con = new SqlConnection(
    WebConfigurationManager.ConnectionStrings["conn"].ConnectionString);

@@ -40,23 +40,81 @@
                 <form id="Form1" action="#" method="post" runat="server">
                     <div id="Div1" class="field_w3ls" runat="server">
                         <div id="Div2" class="field-group" runat="server">
-                            <input runat="server" name="userID" id="text_nic" type="text" value="" placeholder="email | nic" />
+                            <input runat="server" name="userID" id="text_id" type="text" value="" placeholder="email | nic" />
                         </div>
 
                         <div class="field-group">
-                            <input runat="server" id="text_otp" type="password" class="form-control" name="password" value="" placeholder="type your password here..." />
+                            <input runat="server" id="text_password" type="password" class="form-control" name="password" value="" placeholder="type your password here..." />
 
                             <span id="Span1" runat="server" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                         <div class="field-group">
-                            <input runat="server" id="Password1" type="password" class="form-control" name="password" value="" placeholder="re-type your password here..." />
+                            <input runat="server" id="text_retypepassword" type="password" class="form-control" name="password" value="" placeholder="re-type your password here..." />
 
                             <span id="Span2" runat="server" toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
                         </div>
                     </div>
 
                     <div class="wthree-field">
-                        <asp:Button ID="Button23" runat="server" Text="SIGN UP" OnClick="Button1_Click3" />
+                        <asp:Button ID="btn_signup" runat="server" Text="SIGN UP"  />
+                          <script>
+                              const button2 = document.querySelector("#btn_signup");
+
+                              button2.addEventListener("click", function () {
+                                  myMethod();
+                                  event.preventDefault();
+                              });
+
+                              function myMethod() {
+
+                                  var userid = document.getElementById('text_id').value;
+                                  var password = document.getElementById('text_password').value;
+                                  var retype_password = document.getElementById('text_retypepassword').value;
+
+                                  if (userid == "" || password == "") {
+
+                                      alert("Please type valied Username and Password")
+                                  } else if (password != retype_password) {
+
+                                      alert("Sorry, Both Password's are not Matching..");
+                                  }
+                                  else {
+
+                                      $.ajax({
+                                          beforeSend: function () {
+                                              $("#loading").css("visibility", "visible");
+                                          },
+                                          url: "http://geryjdakdai-001-site30.atempurl.com/api/Login/CreateLoginCredentials?userid=" + userid + "&password=" + password,
+                                          type: "GET",
+                                          success: function (data) {
+                                              $.each(data, function (index, value) {
+                                                  if (value.Status_ == 'Success') {
+                                                      alert("Successfully Created New User");
+                                                      document.getElementById('text_id').value='';
+                                                      document.getElementById('text_password').value='';
+                                                      vdocument.getElementById('text_retypepassword').value='';
+                                                  } else {
+                                                      alert(value.Status_);
+                                                  }
+
+                                              });
+
+                                          },
+                                          error: function (xhr, textStatus, errorThrown) {
+                                              if (xhr.status == 400) {
+                                                  alert("Duplicate entry found");
+                                              } else {
+                                                  alert("Error adding record. Please try again." + xhr.status);
+                                              }
+                                          },
+                                          complete: function () {
+                                              $("#loading").css("visibility", "hidden");
+                                          }
+                                      });
+                                  }
+
+                              }
+                          </script>
                     </div>
                     <div>
 

@@ -42,22 +42,22 @@ namespace bbq
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Div2;
 
         /// <summary>
-        /// text_nic control.
+        /// text_id control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText text_nic;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText text_id;
 
         /// <summary>
-        /// text_otp control.
+        /// text_password control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_otp;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_password;
 
         /// <summary>
         /// Span1 control.
@@ -69,13 +69,13 @@ namespace bbq
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span1;
 
         /// <summary>
-        /// Password1 control.
+        /// text_retypepassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputPassword Password1;
+        protected global::System.Web.UI.HtmlControls.HtmlInputPassword text_retypepassword;
 
         /// <summary>
         /// Span2 control.
@@ -87,12 +87,12 @@ namespace bbq
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl Span2;
 
         /// <summary>
-        /// Button23 control.
+        /// btn_signup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button23;
+        protected global::System.Web.UI.WebControls.Button btn_signup;
     }
 }

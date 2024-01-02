@@ -46,9 +46,9 @@
             </ul>
         </div>
     </nav>
-    <form>
-        <div class="text-right fixed-bottom mb-3" style="margin-top: -40px;margin-left:100px">
-            <button type="submit" class="btn btn-primary" style="width:250px;background-color:green">MAKE A COMPLAINT</button>
+    <form runat="server">
+        <div class="text-right fixed-bottom mb-3" style="margin-top: -40px; margin-left: 100px">
+             <asp:Button ID="btn_compalint" runat="server" class="btn btn-primary" Text="MAKE A COMPLAINT" OnClick="btn_compalint_Click"/>
         </div>
     </form>
 
